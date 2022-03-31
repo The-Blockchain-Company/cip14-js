@@ -9,13 +9,13 @@ This package is a Typescript implementation of CIP14
 ## Install
 
 ``` sh
-npm i @the-blockchain-company/cip14-js --save
+npm i @theblockchaincompanyio/cip14-js --save
 ```
 
 ## Usage
 
 ```js
-const AssetFingerprint = require('@the-blockchain-company/cip14-js');
+const AssetFingerprint = require('@theblockchaincompanyio/cip14-js');
 
 // initialize class with policyId, assetName
 const assetFingerprint = AssetFingerprint.fromParts(
